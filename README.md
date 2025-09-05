@@ -49,7 +49,7 @@ This Pages is a premium authentication interface that provides a modern and eleg
 
 ```bash
 # Clone the project
-git clone https://github.com/username/infini-ai.git
+[git clone https://github.com/Infinifunction/ModernAuthenticationUI]
 ```
 
 ## 📄 License
