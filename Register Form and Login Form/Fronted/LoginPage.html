@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giriş Sayfası</title>
+    <link rel="stylesheet" href="/static/css/Login.css">
+</head>
+<body>
+    <!-- Logo -->
+    <div class="_0923982 intro">
+      <div class="AI logo-area">
+        <div class="icon">
+          <img src="/static/movie/Transparentlogo.png" alt="Infini AI" width="90" height="90">
+        </div>
+        <span class="ai-text">Infini AI</span>
+      </div>
+    </div>
+
+    <!-- Login form -->
+    <div class="login-wrapper">
+        <form action="/login" method="POST">
+                <h2>Login</h2>
+                <div class="input-field">
+                    <input type="email" name="email" required>
+                    <label>Enter Your Email Address</label>
+                </div>
+                <div class="input-field">
+                    <input type="password" name="password" required>
+                    <label>Enter your password</label>
+                </div>
+                <div class="password-options">
+                    <label for="remember">
+                        <input type="checkbox" id="remember" name="remember">
+                        <p>Remember Me</p>
+                    </label>
+                    <a href="/changepassword">I Forgot My Password</a>
+                </div>
+                <div class="terms-wrapper">
+                    <label>
+                        <input type="checkbox" name="terms_accepted" required>
+                        <span>
+                            By clicking the Sign Up button, you declare that you have read and accepted the 
+                            <a href="/terms" target="_blank">Terms of Use</a> and
+                            <a href="/privacy" target="_blank">Privacy Policy.</a>
+                        </span>
+                    </label>
+                </div>
+                <button type="submit">Login</button>
+                <div class="account-options">
+                    <p>Don't have an account? <a href="/register">Sign up</a></p>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
